@@ -8,17 +8,18 @@
   "keywords": [
     "web-component",
     "polymer",
-    "seed"
+    "seed",
+    "nuxeo"
   ],
   "main": "nuxeo-document-property.html",
-  "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "license": "LGPL",
+  "homepage": "https://github.com/jfletchger/nuxeo-document-property/",
   "ignore": [
     "/.*",
     "/test/"
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.1.0",
-    "nuxeo-elements": "nuxeo/nuxeo-elements#~0.2.3"
+    "nuxeo-elements": "nuxeo/nuxeo-elements#fix-nuxeo-document"
   }
 }
