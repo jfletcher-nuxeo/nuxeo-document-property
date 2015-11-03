@@ -18,17 +18,16 @@ Contributors:
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <title>nuxeo-document-property Demo</title>
   <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="import" href="../nuxeo-document-property.html">
 </head>
 
-<body unresolved>
+<body>
 
   <nuxeo-connection url="http://localhost:8080/nuxeo" username="Administrator" password="Administrator"></nuxeo-connection>
 
-  <span><nuxeo-document-property doc-id="ca403016-25fd-4916-b0b7-3b21e571f201" property-name="dc:title" ></nuxeo-document-property></span>
+  <nuxeo-document-property doc-path="/default-domain" property-name="dc:title"></nuxeo-document-property>
 
 </body>
 
