@@ -23,10 +23,13 @@ doc.properties["file:content"].name.
 
 Example:
 
-  <nuxeo-document-property doc-id="document uuid"
+  <nuxeo-document-property doc-path="/default-domain"
+                           doc-id="document uuid"
                            property-name="file:content"
                            sub-property-name="name">
   </nuxeo-document-property>
+
+Use doc-id or doc-path. If you use both, doc-id takes precedence.
 
 @group Nuxeo Document Elements
 @element nuxeo-document-property
