@@ -1,8 +1,6 @@
 # nuxeo-document-property
 
-An element to fetch a document property value. It supports scalar properties
-(e.g. doc.properties["dc:title"]) and one level of complex properties (e.g.
-doc.properties["file:content"].name.
+An element to fetch a document property value. It supports scalar properties (e.g. `doc.properties["dc:title"]`) and one level of complex properties (e.g. `doc.properties["file:content"].name`).
 
 ## Dependencies
 
