@@ -1,3 +1,9 @@
+# IMPORTANT - This element is obsolete
+
+This element is not really necessary. I discovered later that Polymer epxressions support complex types.  So you can simply use `nuxeo-document` to fetch the document and then use `[[doc.properties.dc:title]]`, for example.
+
+However it is possiuble this could break, because the [Polymer binding documentation](https://www.polymer-project.org/1.0/docs/devguide/data-binding.html#array-binding) implies you should not use this syntax.
+
 # nuxeo-document-property
 
 An element to fetch a document property value. It supports scalar properties (e.g. `doc.properties["dc:title"]`) and one level of complex properties (e.g. `doc.properties["file:content"].name`).
