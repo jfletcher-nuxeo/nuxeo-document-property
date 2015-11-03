@@ -24,11 +24,10 @@ Contributors:
 </head>
 
 <body>
-
-  <nuxeo-connection url="http://localhost:8080/nuxeo" username="Administrator" password="Administrator"></nuxeo-connection>
-
-  <nuxeo-document-property doc-path="/default-domain" property-name="dc:title"></nuxeo-document-property>
-
+  <template is="dom-bind" id="app">
+    <nuxeo-connection url="http://localhost:8080/nuxeo" username="Administrator" password="Administrator"></nuxeo-connection>
+    <nuxeo-document-property doc-path="/default-domain" property-name="dc:title"></nuxeo-document-property>
+  </template>
 </body>
 
 </html>
