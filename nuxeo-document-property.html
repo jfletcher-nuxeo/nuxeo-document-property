@@ -34,7 +34,7 @@ Example:
 -->
 <dom-module id="nuxeo-document-property">
   <template>
-    <nuxeo-document auto doc-id="[[docId]]" response="{{doc}}"></nuxeo-document>
+    <nuxeo-document auto doc-path="[[docPath]]" doc-id="[[docId]]" response="{{doc}}"></nuxeo-document>
     <span class="nuxeo-document-property">[[_getPropertyValue(doc.properties)]]</span>
   </template>
 </dom-module>
@@ -46,6 +46,7 @@ Example:
 
     properties: {
       docId: String,
+      docPath: String,
       propertyName: String,
       subPropertyName: String
     },
